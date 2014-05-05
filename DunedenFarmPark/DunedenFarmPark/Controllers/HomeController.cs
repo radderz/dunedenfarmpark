@@ -20,6 +20,20 @@ namespace DunedenFarmPark.Controllers
             return View();
         }
 
+        public ActionResult WhatsOffered()
+        {
+            ViewBag.Message = "What we offer.";
+
+            return View();
+        }
+
+        public ActionResult MeetOurAnimals()
+        {
+            ViewBag.Message = "Meet Hurmee";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
