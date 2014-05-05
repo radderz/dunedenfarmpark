@@ -1,17 +1,30 @@
-﻿@{
-    ViewBag.Title = "Contact";
+﻿@using System.Web.UI.WebControls
+@{
+    ViewBag.Title = "Contact Us";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<p>
+    @Html.Raw(Html.Encode(@ViewBag.Message).Replace(Environment.NewLine, "<br />"))
+</p>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    @Html.Raw(Html.Encode(@ViewBag.Address).Replace(",", "<br />"))
+</address>
+
+
+<address>
+    Phone: @ViewBag.Phone
+</address>
+<address>
+    Mobile or Text: @ViewBag.Mobile
 </address>
 
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Email:</strong>   <a href=@string.Concat("mailto:", @ViewBag.Email)>@ViewBag.Email</a><br />
 </address>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<div id="map_canvas" style="width: 640px; height: 480px"></div>
+
+
