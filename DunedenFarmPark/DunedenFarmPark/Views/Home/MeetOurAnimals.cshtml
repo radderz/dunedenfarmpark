@@ -1,7 +1,26 @@
 ﻿@{
-    ViewBag.Title = "Meet the anamaallllses";
+    ViewBag.Title = "Meet the Animals!";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
 <p>We offer all the animals!!</p>
+
+<div id="slideshow">
+
+    <ul class="slides">
+        <li><img src="~/Content/Images/Slideshow/1.jpg" width="620" height="320" alt="Marsa Alam" /></li>
+        <li><img src="~/Content/Images/Slideshow/2.jpg" width="620" height="320" alt="Turrimetta Beach" /></li>
+        <li><img src="~/Content/Images/Slideshow/3.jpg" width="620" height="320" alt="Power Station" /></li>
+        <li><img src="~/Content/Images/Slideshow/4.jpg" width="620" height="320" alt="Colors of Nature" /></li>
+    </ul>
+
+    <span class="arrow previous"></span>
+    <span class="arrow next"></span>
+</div>
+
+@*<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>*@
+<script src="~/Scripts/Slideshow/Script.js"></script>
+@section Slideshow{
+    <link href="@Url.Content("~/Content/SlideShow.css")" rel="stylesheet" type="text/css" />
+}
