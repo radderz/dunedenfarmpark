@@ -130,6 +130,80 @@
     <Content Include="Content\Images\Slideshow\3.jpg" />
     <Content Include="Content\Images\Slideshow\4.jpg" />
     <Content Include="Content\Images\Slideshow\5.jpg" />
+    <Content Include="Libs\OwlSlider\Images\1.jpg" />
+    <Content Include="Libs\OwlSlider\Images\11.jpg" />
+    <Content Include="Libs\OwlSlider\Images\2.jpg" />
+    <Content Include="Libs\OwlSlider\Images\22.jpg" />
+    <Content Include="Libs\OwlSlider\Images\3.jpg" />
+    <Content Include="Libs\OwlSlider\Images\33.jpg" />
+    <Content Include="Libs\OwlSlider\Images\4.jpg" />
+    <Content Include="Libs\OwlSlider\Images\44.jpg" />
+    <Content Include="Libs\OwlSlider\Images\arrow_btn.png" />
+    <Content Include="Libs\OwlSlider\Images\arrow_btnh.png" />
+    <Content Include="Libs\OwlSlider\Images\avator.png" />
+    <Content Include="Libs\OwlSlider\Images\banner.jpg" />
+    <Content Include="Libs\OwlSlider\Images\c-arrows.png" />
+    <Content Include="Libs\OwlSlider\Images\close.png" />
+    <Content Include="Libs\OwlSlider\Images\comment.png" />
+    <Content Include="Libs\OwlSlider\Images\comment1.png" />
+    <Content Include="Libs\OwlSlider\Images\g1.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g11.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g2.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g22.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g3.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g33.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g4.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g44.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g5.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g55.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g6.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g66.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g7.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g77.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g8.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g88.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g9.jpg" />
+    <Content Include="Libs\OwlSlider\Images\g99.jpg" />
+    <Content Include="Libs\OwlSlider\Images\icon1 %281%29.png" />
+    <Content Include="Libs\OwlSlider\Images\icon1.png" />
+    <Content Include="Libs\OwlSlider\Images\icon2.png" />
+    <Content Include="Libs\OwlSlider\Images\icon3.png" />
+    <Content Include="Libs\OwlSlider\Images\icon_1.png" />
+    <Content Include="Libs\OwlSlider\Images\icon_2.png" />
+    <Content Include="Libs\OwlSlider\Images\im.jpg" />
+    <Content Include="Libs\OwlSlider\Images\im1.jpg" />
+    <Content Include="Libs\OwlSlider\Images\img.jpg" />
+    <Content Include="Libs\OwlSlider\Images\lg.png" />
+    <Content Include="Libs\OwlSlider\Images\m.png" />
+    <Content Include="Libs\OwlSlider\Images\marker21.png" />
+    <Content Include="Libs\OwlSlider\Images\marker211.png" />
+    <Content Include="Libs\OwlSlider\Images\msg.png" />
+    <Content Include="Libs\OwlSlider\Images\msg1.png" />
+    <Content Include="Libs\OwlSlider\Images\nav-icon.png" />
+    <Content Include="Libs\OwlSlider\Images\next.png" />
+    <Content Include="Libs\OwlSlider\Images\pagenate.png" />
+    <Content Include="Libs\OwlSlider\Images\pagenate1.png" />
+    <Content Include="Libs\OwlSlider\Images\pagenate5.png" />
+    <Content Include="Libs\OwlSlider\Images\prev.png" />
+    <Content Include="Libs\OwlSlider\Images\prs1.jpg" />
+    <Content Include="Libs\OwlSlider\Images\prs2.jpg" />
+    <Content Include="Libs\OwlSlider\Images\saxda.jpg" />
+    <Content Include="Libs\OwlSlider\Images\sb1.jpg" />
+    <Content Include="Libs\OwlSlider\Images\sb3.jpg" />
+    <Content Include="Libs\OwlSlider\Images\sb4.jpg" />
+    <Content Include="Libs\OwlSlider\Images\sb5.jpg" />
+    <Content Include="Libs\OwlSlider\Images\sb6.jpg" />
+    <Content Include="Libs\OwlSlider\Images\search.png" />
+    <Content Include="Libs\OwlSlider\Images\search_h.png" />
+    <Content Include="Libs\OwlSlider\Images\share_icon1.png" />
+    <Content Include="Libs\OwlSlider\Images\spriteimg.png" />
+    <Content Include="Libs\OwlSlider\Images\u.png" />
+    <Content Include="Libs\OwlSlider\Images\view.png" />
+    <Content Include="Libs\OwlSlider\jquery-ui.js" />
+    <Content Include="Libs\OwlSlider\jquery.min.js" />
+    <Content Include="Libs\OwlSlider\jquery.mmenu.all.css" />
+    <Content Include="Libs\OwlSlider\jquery.mmenu.js" />
+    <Content Include="Libs\OwlSlider\magnific-popup.css" />
     <Content Include="Content\SlideShow.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -140,6 +214,13 @@
     <Content Include="Libs\FlexiSlider\images\bg_play_pause.png" />
     <Content Include="Libs\FlexiSlider\jquery.flexslider-min.js" />
     <Content Include="Libs\FlexiSlider\jquery.flexslider.js" />
+    <Content Include="Libs\OwlSlider\nivo-lightbox.min.js" />
+    <Content Include="Libs\OwlSlider\owl.carousel.css" />
+    <Content Include="Libs\OwlSlider\owl.carousel.js" />
+    <Content Include="Libs\OwlSlider\script.js" />
+    <Content Include="Libs\OwlSlider\scripts-f0e4e0c2.js" />
+    <Content Include="Libs\OwlSlider\slippry.css" />
+    <Content Include="Libs\OwlSlider\style.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Libs\FlexiSlider\fonts\flexslider-icon.eot" />
@@ -152,7 +233,6 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\Slideshow\Script.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -171,6 +251,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\WhatsOffered.cshtml" />
     <Content Include="Views\Home\MeetOurAnimals.cshtml" />
+    <Content Include="Views\Shared\SliderView.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -194,7 +275,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>59804</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
