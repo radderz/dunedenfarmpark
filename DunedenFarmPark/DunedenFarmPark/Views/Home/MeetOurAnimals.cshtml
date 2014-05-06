@@ -6,21 +6,97 @@
 
 <p>We offer all the animals!!</p>
 
-<div id="slideshow">
 
-    <ul class="slides">
-        <li><img src="~/Content/Images/Slideshow/1.jpg" width="620" height="320" alt="Marsa Alam" /></li>
-        <li><img src="~/Content/Images/Slideshow/2.jpg" width="620" height="320" alt="Turrimetta Beach" /></li>
-        <li><img src="~/Content/Images/Slideshow/3.jpg" width="620" height="320" alt="Power Station" /></li>
-        <li><img src="~/Content/Images/Slideshow/4.jpg" width="620" height="320" alt="Colors of Nature" /></li>
-    </ul>
+<table>
+    <tr>
+        <td>
+            <div id="carousel" class="flexslider">
+                <ul class="slides" id="carouselList">
+                    <li>
+                        <img src="~/Content/Images/Slideshow/1.jpg" />
+                    </li>
+                    <li>
+                        <img src="~/Content/Images/Slideshow/2.jpg" />
+                    </li>
+                    <li>
+                        <img src="~/Content/Images/Slideshow/3.jpg" />
+                    </li>
+                    <li>
+                        <img src="~/Content/Images/Slideshow/4.jpg" />
+                    </li>
+                    <li>
+                        <img src="~/Content/Images/Slideshow/5.jpg" />
+                    </li>
+                    <!-- items mirrored twice, total of 12 -->
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="galleryLayout">
+                <div id="slider" class="flexslider">
+                    <ul class="slides" id="mainimage">
+                        <li>
+                            <img src="~/Content/Images/Slideshow/1.jpg" />
+                        </li>
+                        <li>
+                            <img src="~/Content/Images/Slideshow/2.jpg" />
+                        </li>
+                        <li>
+                            <img src="~/Content/Images/Slideshow/3.jpg" />
+                        </li>
+                        <li>
+                            <img src="~/Content/Images/Slideshow/4.jpg" />
+                        </li>
+                        <li>
+                            <img src="~/Content/Images/Slideshow/5.jpg" />
+                        </li>
+                        <!-- items mirrored twice, total of 12 -->
+                    </ul>
+                </div>
+            </div>
 
-    <span class="arrow previous"></span>
-    <span class="arrow next"></span>
-</div>
+        </td>
+    </tr>
+</table>
 
-@*<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>*@
-<script src="~/Scripts/Slideshow/Script.js"></script>
-@section Slideshow{
-    <link href="@Url.Content("~/Content/SlideShow.css")" rel="stylesheet" type="text/css" />
-}
+
+
+
+
+<script type="text/javascript">
+    $(window).load(function () {
+        // The slider being synced must be initialized first
+        $('#carousel').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 210,
+            itemHeight: 200,
+            itemMargin: 5,
+            asNavFor: '#slider'
+        });
+
+        $('#slider').flexslider({
+            animation: "fade",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            sync: "#carousel"
+        });
+
+
+        ficContentLayout();
+    });
+
+
+    function ficContentLayout() {
+
+
+
+
+    }
+
+</script>

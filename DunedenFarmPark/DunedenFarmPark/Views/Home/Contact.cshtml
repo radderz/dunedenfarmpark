@@ -3,6 +3,14 @@
     ViewBag.Title = "Contact Us";
 }
 <h2>@ViewBag.Title.</h2>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+@Scripts.Render("~/bundles/mapscripts")
+<script type="text/javascript">
+    $(document).ready(function () {
+        initialize();
+    });
+
+</script>
 <p>
     @Html.Raw(Html.Encode(@ViewBag.Message).Replace(Environment.NewLine, "<br />"))
 </p>
@@ -24,7 +32,6 @@
 </address>
 
 
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <div id="map_canvas" style="width: 640px; height: 480px"></div>
 
 
